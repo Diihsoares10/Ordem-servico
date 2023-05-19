@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="n-os.css">
+    <title>Solicitação Ordem de Pagamento</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+          <legend>Questionário O.S</legend>
+          <label>
+            <input type="checkbox" name="camera"> Camera
+          </label>
+          <label>
+            <input type="checkbox" name="alarme"> Alarme
+          </label>
+          <label>
+            <input type="checkbox" name="cerca"> Cerca Eletrica
+          </label>
+          <label>
+            <input type="checkbox" name="relogio"> Relogio de ponto
+          </label>
+          <label>
+            <input type="checkbox" name="manutencao"> Manutenção Periodica
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Câmeras paradas</legend>
+          <label>
+            <input type="checkbox" name="cameras-paradas" value="1"> 1
+          </label>
+          <label>
+            <input type="checkbox" name="cameras-paradas" value="2"> 2
+          </label>
+          <label>
+            <input type="checkbox" name="cameras-paradas" value="3"> 3
+          </label>
+          <label>
+            <input type="checkbox" name="cameras-paradas" value="4"> 4
+          </label>
+          <label>
+            <input type="checkbox" name="cameras-paradas" value="5"> 5
+          </label>
+          <label>
+            <input type="checkbox" name="cameras-paradas" value="6"> 6
+          </label>
+          <label>
+            Outro: <input type="text" name="cameras-paradas-outro">
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Observação:</legend>
+          <textarea class="observacao" name="observacao" style="width: 550px; height: 200px;"></textarea>
+        </fieldset>
+        <fieldset>
+          <legend>Serviço a ser Realizado:</legend>
+          <textarea name="servico-realizado"></textarea>
+        </fieldset>
+        <fieldset>
+          <legend>Relatório do Serviço:</legend>
+          <textarea name="relatorio-servico"></textarea>
+        </fieldset>
+        <fieldset>
+          <legend>Assinatura Cliente e Técnico:</legend>
+          <label>
+            Cliente: <input type="text" name="assinatura-cliente">
+          </label>
+          <label>
+            Técnico: <input type="text" name="assinatura-tecnico">
+          </label>
+        </fieldset>
+        <button type="submit">Enviar</button>
+      </form>
+      
+</body>
+</html>

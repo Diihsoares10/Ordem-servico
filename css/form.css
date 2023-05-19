@@ -1,0 +1,85 @@
+
+h1 {
+  font-size: 50px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  color: #f58216;
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+form {
+  background-color: rgba(245, 241, 241, 0.8);
+  padding: 30px;
+  border: 1px solid rgba(65, 100, 197, 0.2);
+  box-shadow: 0px 0px 10px rgba(65, 100, 197, 0.2);
+}
+
+
+input:focus {
+  outline: none;
+  background-color: #23a2dd;
+}
+
+input[type="text"]:not(:focus) {
+  opacity: 0.5;
+}
+
+input[type="text"]:not(#nome:focus) {
+  opacity: 1;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  color: #272ac2;
+}
+
+
+label {
+  color: #4e57a7;
+}
+
+input[type="text"] {
+  color: #23a2dd;
+}
+
+input[type="submit"] {
+  background-color: #36b0e0;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #b38a1a;
+}
+
+textarea {
+  height: 100px;
+}
+
+select option:first-of-type {
+  color: #23a2dd;;
+}
+
+select:invalid {
+  color: #23a2dd;
+}
+
+select option[value="manutencao"] {
+  color: blue;
+}
+
+select option[value="instalacao"] {
+  color: green;
+}
+
+select option[value="reparo"] {
+  color: red;
+}
